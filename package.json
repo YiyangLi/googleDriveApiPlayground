@@ -1,0 +1,22 @@
+{
+  "name": "google-drive-api-playground",
+  "version": "1.0.0",
+  "description": "Learn google drive api and oAuth via a node js app",
+  "main": "index.js",
+  "repository": "git@github.com:YiyangLi/googleDriveApiPlayground.git",
+  "author": "Yiyang Li",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "start": "node ."
+  },
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "googleapis": "^73.0.0",
+    "path": "^0.12.7",
+    "readline": "^1.3.0"
+  },
+  "env": {
+    "newOwner": "alice.test.120@gmail.com"
+  }
+}
